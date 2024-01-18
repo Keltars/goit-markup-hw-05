@@ -351,7 +351,6 @@
                     <button class="sub-btn" type="submit">Subscribe
                         <svg class="sub-svg" width="24" height="24">
                             <use href="./images/icons.svg#icon-sub"></use>
-                            </use>
                         </svg>
                     </button>
                 </div>
@@ -407,21 +406,22 @@
 
                 <div class="modal-field comment-box">
                     <label class="modal-label" for="comment">Comment</label>
-                    <textarea name="" id="comment" cols="30" rows="10" class="modal-input-comment"
+                    <textarea name="comment" id="comment" cols="30" rows="10" class="modal-input-comment"
                         placeholder="Input text"></textarea>
                 </div>
 
                 <div class="modal-privacy">
                     <input id="privacy" name="privacy" type="checkbox" class="check-input visually-hidden"
                         value="true" />
-                    <label for="privacy" class="privacy-text"><span><svg class="check" width="10" height="8">
+                    <label for="privacy" class="privacy-text">
+                        <span><svg class="check" width="10" height="8">
                                 <use href="./images/icons.svg#icon-check"></use>
-                            </svg></span>I accept the terms and conditions of the
+                            </svg></span>
+                        I accept the terms and conditions of the
                         <a class="privacy-link" href="">Privacy Policy</a>
+                    </label>
                 </div>
-
                 <button class="modal-sub-btn" type="submit">Send</button>
-
             </form>
         </div>
     </div>
