@@ -710,6 +710,9 @@ button {
 
 .modal-privacy {
   margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .privacy-text {
@@ -717,8 +720,10 @@ button {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.04em;
-  display: flex;
   gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .privacy-text span {
